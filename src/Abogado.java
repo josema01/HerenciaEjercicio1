@@ -12,4 +12,8 @@ public class Abogado extends Empleado{
     }
     public String getMesVacaciones() {
         return "Julio"; }
+
+    public void mostrar(){
+        System.out.println("Estoy en el tribunal");
+    }
 }
